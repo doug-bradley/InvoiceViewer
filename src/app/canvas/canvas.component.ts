@@ -62,9 +62,6 @@ export class CanvasComponent implements OnInit {
     this.clearCanvas();
     this.draw();
     this.context.translate(-center.x, -center.y);
-
-
-
 }
   rotateLeft = () => {
     this.rotate(-1);
